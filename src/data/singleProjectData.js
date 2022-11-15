@@ -4,6 +4,7 @@ import primaryUsers from "../images/users.svg";
 import innovativeElements from "../images/innovation.svg";
 import features from "../images/features.svg";
 import hardware from "../images/hardware.jpg";
+import software from "../images/software.svg";
 import Image2 from "../images/web-project-2.jpg";
 import Image3 from "../images/mobile-project-2.jpg";
 import Image4 from "../images/mobile-project-1.jpg";
@@ -118,6 +119,23 @@ export const singleProjectData = [
     ProjectInfo: {
       ProjectDetails: [],
       projectDescription: "hardware.md",
+    },
+  },
+  {
+    id: "software",
+    ProjectHeader: {
+      title: "Software",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Stock image of a software thing",
+        img: software,
+      },
+    ],
+    ProjectInfo: {
+      ProjectDetails: [],
+      projectDescription: "software.md",
     },
   },
 ];

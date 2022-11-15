@@ -6,6 +6,7 @@ import usersImage from "../images/users.svg";
 import innovationImage from "../images/innovation.svg";
 import features from "../images/features.svg";
 import hardware from "../images/hardware.jpg";
+import software from "../images/software.svg";
 import MobileImage1 from "../images/mobile-project-1.jpg";
 import MobileImage2 from "../images/mobile-project-2.jpg";
 import UIImage1 from "../images/ui-project-1.jpg";
@@ -53,5 +54,12 @@ export const projectsData = [
     title: "Hardware",
     category: "UI/UX Design",
     img: hardware,
+  },
+  {
+    urlId: "software",
+    id: 6,
+    title: "Software",
+    category: "UI/UX Design",
+    img: software,
   },
 ];
