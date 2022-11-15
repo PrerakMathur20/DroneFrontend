@@ -6,6 +6,7 @@ import AboutClients from "../components/about/AboutClients.js";
 import { AboutMeProvider } from "../context/AboutMeContext";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import AppFooter from "../components/shared/AppFooter";
 
 const About = () => {
   let [md, setMd] = useState("");
